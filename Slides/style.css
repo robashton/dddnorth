@@ -1,0 +1,42 @@
+body {
+	background-color: #000;
+	font-family: Monaco, Verdana;
+	font-size: 18px;
+	color: #EFEFEF;
+}
+
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	background-color: #000;
+}
+
+ul.nav {
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+ul.nav > li {
+	cursor: pointer;
+	list-style-type: none;
+		display: inline;
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+		text-align: center;
+}
+
+#content h1 {
+	font-size: 18px;
+}
+
+#content h3 {
+	font-size: 16px;
+}
+
+#content h1.single-header {
+	margin-top: 300px;
+}

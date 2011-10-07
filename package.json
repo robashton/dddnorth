@@ -1,0 +1,8 @@
+{
+    "name": "DDDNorthSlides",
+    "version": "1.0.0",
+    "dependencies": {
+        "socket.io": "0.8.4",
+        "paperboy": "0.0.2"
+    }
+}                             
