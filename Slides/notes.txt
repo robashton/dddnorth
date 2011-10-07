@@ -1,0 +1,60 @@
+An introduction to node.js
+
+0) Some history
+	- Ryan Dahl presents node.js @ conference
+	- Joyent buy Ryan and node
+	- Everyone starts drinking the kool aid
+
+1) Node
+	- Open source
+	- Non blocking server using a single instance of V8 per node process
+	- Single thread of execution, events drive everything
+	- all APIs are non-blocking, 'go do this, notify me when you're done'
+	- Minimal overhead per connection
+	- Oh, and it's Javascript.
+
+	
+2) Node - what is it good for?
+	- Fibonacci series calculation (strike-through - and a joke about absolutely nothing if you read certain intarweb troll posts)
+	- List of internet-found use cases
+		- Uber taxi cabs
+		- Chat server thingy
+		- Video encoding
+		- Multiplayer gaming
+		
+Note that video encoding is not IO bound, but it's a long running process, we can fire up an instance per encode job
+If you want to do rails development and you don't like Javascript, then use Ruby on Rails, 
+just building websites on top of Express is a bit of a waste anyway
+
+3) Some examples (note: pre-created examples if internet flakes out/doesn't work)
+	- Getting started (installing node)
+	- Getting started (installing NPM)
+	- Http server hello world
+	- socketio chat example
+		- Add socketio to packages.xml and do an NPM install
+	- Sharing code twixt client + server (simple domain + validation)
+	
+4) Super secret bonus round
+	- WebGL demo of hover-battles (hosted on macbook)
+	
+5) Notes: (While leaving battles going)
+	- If you don't like Javascript, there is always coffeescript
+		- Most core node devs make fun of CS because they're used to JS now and are comfortable that it's just a language
+	- The philosophy of node dev is typically one of simplicity
+	 	- no meta programming
+		- minimal abstraction
+		- writing code to solve specific problems
+	- Help is at hand
+		- Mailing list
+		- Nodejitsu
+	- Hosting options
+	 	- Heroku
+		- Nodejitsu
+		- Joyent
+		
+		
+	
+	
+	
+	
+
