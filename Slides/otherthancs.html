@@ -1,0 +1,24 @@
+<h1>There are other ways</h1>
+<h3>Consider your classic flow control problem</h3>
+
+
+<pre id="before">
+	
+	WGwg
+</pre>
+<a href="#" id="fixit">Fix it</a>
+
+<pre id="after" style="display: none">
+	
+	l;jweg
+</pre>
+
+
+<script type="text/javascript">
+	$('#fixit').click(function(){
+		$('#fixit').fadeOut("slow");
+		$('#before').fadeOut("slow", function(){
+			$('#after').fadeIn("slow");
+		})
+	});
+</script>
